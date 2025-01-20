@@ -1218,81 +1218,96 @@ For Every Lifestyle
     - #FOOTER
   -->
 
- <div class="modalone" data-modalone>
-      <div class="modalone-content">
-       
-        <div class="newsletter">
-          <h2 class="keepin">Keep in Touch</h2>
-          <!-- Form Section -->
-          <form action="#" class="modalone-form">
-            <!-- Name Field -->
-            <div class="phone-input" style="display: flex; gap: 10px">
-              <input
+  <div class="modal" data-modal>
+    <div class="modal-close-overlay" data-modal-overlay></div>
 
-                type="text"
-                name="name"
-                class="email-field phoneinTwo"
-                placeholder="Enter Name"
-                required
-                style="flex: 1"
-                
-              />
-            </div>
+    <div class="modal-content">
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
 
-            <!-- Email Field -->
-            <div class="phone-input" style="display: flex; gap: 10px">
-              <input
-                type="email"
-                name="email"
-                class="email-field"
-                placeholder="Enter Email"
-                required
-                style="flex: 1"
-              />
-            </div>
-
-            <!-- Phone Field -->
-            <div class="phone-input" style="display: flex; gap: 10px">
-              <select class="email-field" style="width: 30%; max-width: 100px">
-                <option value="+91">+91</option>
-
-                <!-- Add more country codes here -->
-              </select>
-
-              <input
-              
-                type="tel"
-                name="phone"
-                class="email-field"
-                placeholder="Enter Number"
-                required
-                style="flex: 1"
-              />
-            </div>
-
-            <div class="phone-input" style="display: flex; gap: 10px">
-              <input
-                type="email"
-                name="email"
-                class="email-field"
-                placeholder="Enter Your Message"
-                required
-                style="flex: 1"
-              />
-            </div>
-
-          
-
-            <!-- Submit Button -->
-
-            <button type="submit" class="btn-newsletter">Submit Now</button>
-
-            <!-- Consent Section -->
-            
-          </form>
+      <div class="newsletter">
+        <!-- Header Section -->
+        <div class="newsletter-header">
+          <img
+            style="width: 300px; height: 70px"
+            src="./modalLogo.svg"
+            alt=""
+          />
         </div>
+
+        <!-- Form Section -->
+        <form action="#" class="modal-form">
+          <!-- Name Field -->
+          <div
+            class="phone-input"
+            style="display: flex; gap: 10px; color: yellow"
+          >
+            <input
+              type="text"
+              name="name"
+              class="email-field"
+              placeholder="Enter Name"
+              required
+              style="flex: 1"
+            />
+          </div>
+
+          <!-- Email Field -->
+          <div
+            class="phone-input"
+            style="display: flex; gap: 10px; color: yellow"
+          >
+            <input
+              type="email"
+              name="email"
+              class="email-field"
+              placeholder="Enter Email"
+              required
+              style="flex: 1"
+            />
+          </div>
+
+          <!-- Phone Field -->
+          <div class="phone-input" style="display: flex; gap: 10px">
+            <select class="optn">
+              <option value="+91">+91</option>
+            </select>
+
+            <input
+              type="tel"
+              name="phone"
+              class="email-field numberone"
+              placeholder="Enter Number"
+              required
+              style="flex: 1"
+            />
+          </div>
+
+          <!-- Email Field -->
+          <div
+            class="phone-input"
+            style="display: flex; gap: 10px; color: yellow"
+          >
+            <input
+              type="text"
+              name="text"
+              class="email-field"
+              placeholder="Enter Message For Us"
+              required
+              style="flex: 1"
+            />
+          </div>
+
+          <!-- Submit Button -->
+
+          <button type="submit" class="btn-newsletter">Submit Now</button>
+        </form>
       </div>
     </div>
+  </div>
+
+
 
     <footer class="footer">
       <div class="footer-top">
